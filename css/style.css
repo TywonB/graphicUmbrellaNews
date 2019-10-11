@@ -1,0 +1,393 @@
+body {
+    background-image: url(../media/pattern.jpg);
+    background-size: auto;
+    font-family: 'Armata', sans-serif;
+}
+
+#top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: #8eb53e;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+    height: 48px;
+}
+
+.umbrellaSize {
+    height: 60px;
+    left: 2px;
+    position: absolute;
+    top: 7px;
+}
+
+.graphicsColor, .premiumColor, .umbrellaColor {
+    font-family: 'Poiret One', cursive;
+}
+
+.graphicsColor {
+    color: #8fb137;
+    font-size: 31px;
+    left: 48px;
+    position: absolute;
+    top: 5px;
+}
+
+.umbrellaColor {
+    color: #7e8764;
+    font-size: 31px;
+    position: absolute;
+    top: 5px;
+    left: 162px;
+}
+
+.premiumColor {
+    position: absolute;
+    color: #6c6c6c;
+    font-size: 20.3px;
+    top: 39px;
+    left: 50px;
+}
+
+.navigation {
+    left: 92px;
+}
+
+.navigation ul li {
+    list-style: none;
+}
+
+.navigation ul li a {
+    float: left;
+    text-decoration: none;
+    margin: 5px 35px;
+    color: rgb(65, 65, 65);
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+}
+
+.heroColor {
+    background-color: #a0c63f;
+    margin-top: 36px;
+    padding-top: 45px;
+}
+
+.heroImage {
+    margin-left: 185px;
+}
+
+.imgBorder {
+    border-radius: 115px;
+    border: 30px solid #8eb53e;
+    background-color: #8eb53e;
+    height: 158px;
+}
+
+.outer {
+    display: inline-block;
+    border-radius: 120px;
+    border: 23px solid white;
+    margin-right: 110px;
+    margin-top: 44px;
+}
+
+.outer1 {
+    display: inline-block;
+    border-radius: 120px;
+    border: 23px solid white;
+    margin-top: 44px;
+    margin-right: 0;
+}
+
+.paragraphBottom {
+    margin-bottom: 133px;
+}
+
+.amazing, .hour, .web, .mobile {
+    position: absolute;
+    font-size: 39px;
+}
+
+.support, .availability, .design, .development {
+    position: absolute;
+    font-size: 20px;
+    top: 54px;
+}
+
+.amazing {
+    left: 30px;
+}
+
+.support {
+    left: 80px;
+}
+
+.hour {
+    left: 245px;
+}
+
+.availability {
+    left: 270px;
+}
+
+.design {
+    left: 23px;
+}
+
+.mobile {
+    left: 200px;
+}
+
+.development {
+    left: 204px;
+}
+
+.portfolioSize, .advertiserSize {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.portfolioColor, .advertiserColor {
+    color: #8eb53e;
+}
+
+.dashColor {
+    color: lightgrey;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+
+.imgSize {
+    height: 179px;
+}
+
+.backgroundColor {
+    background-color: white;
+    right: 14px;
+    height: 179px;
+    width: 283px;
+}
+
+.backgroundColor a {
+    background: #8eb53e;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 2px 13px;
+}
+
+.businessSize {
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+.loremSize {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.printMargin {
+    margin-top: 25px;
+}
+
+.advertiserSize {
+    margin-top: 50px;
+}
+
+footer {
+    background: white;
+    margin-top: 50px;
+}
+
+.about {
+    margin-right: 22px;
+}
+
+.contact {
+    right: 35px;
+    margin-right: 75px;
+}
+
+.extraSpace {
+    margin-top: 49px;
+    font-size: 23px;
+}
+
+.followSize {
+    font-size: 23px;
+}
+
+.paragraphWidth {
+    width: 252px;
+}
+
+.about a {
+    float: left;
+}
+
+.socialMedia {
+    height: 34px;
+    margin-top: 5px;
+}
+
+.mailPosition, .phonePosition, .mobilePosition {
+    height: 36px;
+    margin-bottom: 28px;
+}
+
+.info {
+    position: absolute;
+    left: 67px;
+    top: 93px;
+}
+
+.phoneNumber {
+    position: absolute;
+    left: 67px;
+    bottom: 93px;
+}
+
+.cellNumber {
+    position: absolute;
+    left: 67px;
+    bottom: 27px;
+}
+
+.inputBox {
+    padding: 5px 10px;
+    font-size: 18px;
+    background: #f9f9f9;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 12px;
+    padding-right: 16px;
+}
+
+.subscribe a {
+    text-decoration: none;
+    background: #8eb53e;
+    padding: 7px 13px;
+    color: white;
+    float: right;
+    margin-top: 15px;
+}
+
+.copyright {
+    background: black;
+}
+
+.copyright ul li {
+    list-style: none;
+}
+
+.copyright ul li a {
+    text-decoration: none;
+    float: left;
+    color: white;
+    margin: 5px 35px 5px 0px;
+}
+
+.copyrightInfo {
+    right: 38px;
+}
+
+.rights {
+    left: 97px;
+    text-align: right;
+    color: white;
+    margin: 5px 35px 5px 0px;
+}
+
+/* ABOUT US PAGE */
+
+.green {
+    background: #8eb53e;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.white {
+    background: white;
+    margin-top: 50px;
+    width: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.white ul li {
+    font-size: 17px;
+}
+
+.paragraphMargin {
+    margin-top: 25px;
+    width: 560px;
+    font-size: 16px;
+}
+
+.heading {
+    margin-top: 25px;
+}
+
+.paragraphMargin2 {
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+/* NEWS */
+
+.whiteBackground {
+    background: white;
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.article {
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.paragraph {
+    margin-top: 25px;
+    width: 490px;
+}
+
+.search {
+    font-size: 20px;
+}
+
+.dashColorSize {
+    color: lightgrey;
+    font-size: 42.5px;
+}
+
+.inputBoxSize {
+    padding: 3px 0px;
+    font-size: 38px;
+    margin-top: 27px;
+    margin-bottom: 21px;
+}
+
+.dashColorMargin {
+    color: lightgrey;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.categories {
+    margin-left: 15px;
+}
+
+.tags {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.tagsParagraph {
+    width: 354px;
+}
